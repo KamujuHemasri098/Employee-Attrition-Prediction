@@ -7,7 +7,7 @@ import numpy as np
 
 model=joblib.load("attrition_model.pkl")
 label_encoder=joblib.load("label_encoder.pkl")
-feature_columns=joblib.load("feature_columns.pkl")
+feature_column=joblib.load("feature_columns.pkl")
 
 st.title("Employee Attrition Prediction")
 st.markdown("Enter the employee details to predict if they are " "likely to leave the company")
